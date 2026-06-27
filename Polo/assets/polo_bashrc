@@ -1,0 +1,18 @@
+export TERM="${TERM:-xterm-256color}"
+export COLORTERM="${COLORTERM:-truecolor}"
+
+say() {
+    printf '%s\n' "$*"
+}
+
+command_not_found_handle() {
+    printf '\033[31m%s: invalid command\033[0m\n' "$1" >&2
+    return 127
+}
+
+__polo_prompt_command() {
+    printf '\033]7;file://%s%s\a' "${HOSTNAME:-polo}" "$PWD"
+}
+
+PROMPT_COMMAND=__polo_prompt_command
+PS1='> '

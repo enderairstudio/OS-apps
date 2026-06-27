@@ -1,0 +1,59 @@
+TerminalWindow {
+    background: #000000;
+}
+
+QLabel {
+    color: #f4f4f4;
+    background: #000000;
+}
+
+QLabel#pathLabel {
+    font-family: "Cascadia Mono", "Consolas", "DejaVu Sans Mono", monospace;
+    font-size: 13px;
+    border-bottom: 1px solid #1c1c1c;
+}
+
+TopBar {
+    background: #0b0b0b;
+}
+
+TopBar QPushButton {
+    color: #f4f4f4;
+    background: #1c1c1c;
+    border: 1px solid #2b2b2b;
+    border-radius: 14px;
+    padding: 5px 10px;
+}
+
+TopBar QPushButton:hover {
+    background: #2b2b2b;
+}
+
+TopBar QPushButton[active="true"] {
+    background: #2f2f2f;
+    border-color: #555555;
+}
+
+TopBar QPushButton#closeButton {
+    border-radius: 10px;
+    min-width: 20px;
+    max-width: 20px;
+    padding: 1px;
+}
+
+TopBar QPushButton#addButton {
+    border-radius: 15px;
+    min-width: 30px;
+    max-width: 30px;
+    font-weight: 700;
+}
+
+QPlainTextEdit#terminalView {
+    background: #000000;
+    color: #f4f4f4;
+    selection-background-color: #3a7bd5;
+    selection-color: #ffffff;
+    font-family: "Cascadia Mono", "Consolas", "DejaVu Sans Mono", monospace;
+    font-size: 14px;
+    padding: 10px;
+}

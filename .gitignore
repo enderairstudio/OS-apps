@@ -1,0 +1,50 @@
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Compiled build directories
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Qmake / Qt generated files
+.qmake.stash
+Makefile
+Makefile.Debug
+Makefile.Release
+moc_*.cpp
+moc_*.o
+moc_predefs.h
+qrc_*.cpp
+qrc_*.o
+
+# Log files
+*.log
+
+# Specific executables (preventing matching directory names)
+/File manger/file_manager
+/File manger/file_manager.exe
+/Polo/Polo
+/Polo/Polo.exe
+/Task monitor/TaskMonitor
+/Task monitor/TaskMonitor.exe
+/Camera/camera
+/Camera/camera.exe
+/DaCoder/dacoder
+/DaCoder/dacoder.exe
+/My Images/gallery
+/My Images/gallery.exe
+/PaperPad/PaperPad
+/PaperPad/PaperPad.exe

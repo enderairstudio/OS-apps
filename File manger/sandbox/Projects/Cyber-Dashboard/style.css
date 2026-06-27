@@ -1,0 +1,17 @@
+body {
+    background: #0d0f12;
+    color: #00ffcc;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    border: 1px solid #00ffcc;
+    padding: 30px;
+    border-radius: 8px;
+    background: rgba(0, 255, 204, 0.05);
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}

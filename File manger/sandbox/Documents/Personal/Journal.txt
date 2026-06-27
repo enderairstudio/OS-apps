@@ -1,0 +1,2 @@
+2026-06-20: Transitioned File Manager app into a native C++ Qt desktop app.
+Now it feels extremely snappy and runs natively as pure C++ without dependencies.

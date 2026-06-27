@@ -1,0 +1,8 @@
+Antigravity Qt File Manager Roadmap:
+---------------------------------
+1. Implement fully functional native C++ Qt5 interface [DONE]
+2. Add Quick Access sidebar with sandbox navigation [DONE]
+3. Connect native filesystem sorting model [DONE]
+4. Create custom file viewer for images & code files [DONE]
+5. Integrate real-time storage bar metrics [DONE]
+6. Establish file create, rename, delete actions [DONE]
